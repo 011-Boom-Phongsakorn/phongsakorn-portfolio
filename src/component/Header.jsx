@@ -1,4 +1,5 @@
 import React from "react";
+import CV_Boom from "../assets/download/CV_Boom.pdf";
 
 const Header = () => {
   const menuFunction = () => {
@@ -40,9 +41,11 @@ const Header = () => {
         </ul>
       </div>
       <div className="nav-button">
-        <button className="btn">
-          Download CV <i className="uil uil-file-alt"></i>
-        </button>
+        <a href={CV_Boom} target="_blank">
+          <button className="btn">
+            Download CV <i className="uil uil-file-alt"></i>
+          </button>
+        </a>
       </div>
       <div className="nav-menu-btn">
         <i className="uil uil-bars" onClick={menuFunction}></i>
