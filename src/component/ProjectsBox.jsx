@@ -15,7 +15,7 @@ const ProjectsBox = () => {
         <div className="project-box">
           <i className="uil uil-briefcase-alt"></i>
           <h3>Client</h3>
-          <label>99+ Finished projects</label>
+          <label>99+ Happy</label>
         </div>
         <div className="project-box">
           <i className="uil uil-briefcase-alt"></i>
